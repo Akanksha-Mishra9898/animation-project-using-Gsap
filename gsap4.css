@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+}
+section{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 40px;
+}
+.part2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:35px;
+}
+nav h1{
+    font-size: 40px;
+}
+nav h1 i{
+    rotate:50deg;
+    display: inline-block;
+}
+nav a{
+    font-size: 18px;
+    font-weight: 500;
+}
+nav button{
+    padding: 10px 18px;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 16px;
+    font-weight:400;
+}
+.center{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    padding: 40px;
+}
+.center-part1{
+    height: 80%;
+    width: 40%;
+}
+
+.center-part1 h1{
+    font-size: 60px;
+}
+.center-part1 p{
+    padding: 30px 10px;
+    font-size: 18px;
+}
+.center-part1 button{
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+.center-part2{
+    height: 80%;
+    width: 60%;
+    position: relative;
+}
+.center-part2 img{
+    height: 140%;
+    position: absolute;
+    right: 0;
+}
+.section2 .services{
+padding: 40px 50px;
+display: flex;
+align-items: center;
+justify-content: flex-start;
+gap: 20px;
+
+}
+.services h3{
+    background-color: #9ae975;
+    font-weight: 500;
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-size: 25px;
+}
+.services p{
+    width: 40%;
+    font-size: 18px;
+}
+.container{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 40px 50px;
+}
+.elem{
+    height: 300px;
+    margin: 25px;
+    flex-shrink: 0;
+    width: 45%;
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px black;
+    padding: 50px;
+    display: flex;
+}
+.elem-part1{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.elem-part1 h4{
+    font-size: 30px;
+    font-weight: 700;
+}
+.elem-part1 h4 i{
+    background-color: black;
+    border-radius: 50%;
+    color: white;
+    padding: 2px;
+}
+.elem-part2{
+    height: 100%;
+    width: 50%;
+}
+.elem-part2 img{
+    height: 100%;
+}
+.elem-part1 h2{
+    font-size: 30px;
+    background-color: #9ae975;
+    font-weight: 600;
+    width: fit-content;
+    border-radius: 10px;
+}
+
